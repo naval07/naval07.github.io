@@ -1,6 +1,7 @@
 let title = document.getElementById('title');
 
 title.classList.add('title1');
+console.log('clase cambiada?');
 
 function callback(){
     // if (title.classList.contains('title1')){
