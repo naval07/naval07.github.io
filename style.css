@@ -4,9 +4,11 @@ h1 {
 }
 
 .title {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    color:red;
 }
 
 .title1 {
     font-size: 2rem;
+    color: blue;
 }
