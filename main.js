@@ -1,6 +1,6 @@
 let title = document.getElementById('title');
 
-title.classList.add('title1');
+title.classList.add('title');
 
 function callback(){
     if (title.classList.contains('title1')){
