@@ -1,6 +1,9 @@
 var title = document.getElementById('title');
+<<<<<<< HEAD
 console.log('hfjdksh')
 title.classList.add('title');
+=======
+>>>>>>> 6a64b5f02929cfec926120b3f0cc0b496b4af137
 
 document.addEventListener("DOMContentLoaded", function(event) { 
     function callback(){
@@ -18,4 +21,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     
     callback();    
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 6a64b5f02929cfec926120b3f0cc0b496b4af137
