@@ -1,6 +1,6 @@
 let title = document.getElementById('title');
 
-title.classList.add('title');
+title.classList.add('title1');
 
 function callback(){
     // if (title.classList.contains('title1')){
@@ -15,4 +15,4 @@ function callback(){
     title.classList.add('title1');
 }
 
-setTimeout(callback,2000);
+//setTimeout(callback,2000);
