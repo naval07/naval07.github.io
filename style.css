@@ -16,11 +16,14 @@ body {
 .title-container {
     grid-area: 'title';
     height: 20vh;
+    justify-content: center;
+    vertical-align: top;
+    font-size: 3
+    vh;
 }
 
 #title {
     text-align: center;
-    font-size: 4rem;
 }
 
 .title {
@@ -40,9 +43,9 @@ body {
 }
 
 .option-button {
-    height: 8vh;
+    height: 10vh;
     width: 20vw;
-    font-size: 2rem;
+    font-size: 3vh;
     font-family: 'Times New Roman', Times, serif;    
 }
 
@@ -51,7 +54,7 @@ body {
 }
 
 .option-button {
-    padding: 15px 45px;
+    /* padding: 15px 45px; */
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
