@@ -20,6 +20,7 @@ body {
 
 #title {
     text-align: center;
+    font-size: 4rem;
 }
 
 .title {
@@ -39,37 +40,35 @@ body {
 }
 
 .option-button {
-    height: 10vh;
+    height: 8vh;
     width: 20vw;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;    
+}
+
+.option-button {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+}
+
+.option-button {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #537895;
+    border-radius: 20px;
+    display: block;
+}
+
+.option-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer {
     height: 30vh;
     grid-area: 'footer';
 }
-
-
-
-.option-button {
-    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)
-}
-
-.option-button {
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #537895;
-   border-radius: 20px;
-   display: block;
- }
-
- .option-button:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
