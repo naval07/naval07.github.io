@@ -1,5 +1,8 @@
 var title = document.getElementById('title');
 
+console.log('hfjdksh')
+title.classList.add('title');
+
 document.addEventListener("DOMContentLoaded", function(event) { 
     function callback(){
         // title.classList.remove('title');
@@ -16,3 +19,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     
     callback();
+});
+

@@ -1,14 +1,75 @@
-h1 {
-    text-decoration: underline;
+
+body {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 70%);
+    background-size: 200% 200%;
+}
+
+.pag-container {
+    display: grid;
+    grid-template-areas: 
+    'title'
+    'body'
+    'footer';
+}
+
+.title-container {
+    grid-area: 'title';
+    height: 20vh;
+}
+
+#title {
     text-align: center;
 }
 
 .title {
-    font-size: 1.6rem;
     color:red;
 }
 
 .title1 {
-    font-size: 2rem;
     color: blue;
 }
+
+.options-container {
+    display: grid;
+    height: 50vh;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-area: 'body';
+}
+
+.option-button {
+    height: 10vh;
+    width: 20vw;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.footer {
+    height: 30vh;
+    grid-area: 'footer';
+}
+
+
+
+.option-button {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)
+}
+
+.option-button {
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #537895;
+   border-radius: 20px;
+   display: block;
+ }
+
+ .option-button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
