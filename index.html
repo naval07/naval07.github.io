@@ -1,22 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Practice Web Site</title>
-</head>
-<body>
-    <div class = 'pag-container'>
-        <div class='title-container'>
-            <h1 id='title' class = 'title'>Select the api</h1>
-        </div>
-        <div class = 'options-container'>
-            <button onclick="location.href  = 'redSocial/index.html'" class= 'option-button'>Red Social</button>
-            <button onclick="location.href  = 'personalPage/index.html'" class= 'option-button'>Personal Page</button>
-        </div>
-        <div class_= 'footer'>Probando cambiar el index</div>
-    </div>
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Emanuel Naval #3</title>
+        <link rel="icon" type="image/x-icon" href="assets/cpu.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Home #3</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Data Science</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Who am i?</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A 19 years old student of Applied Math and Computer Science at Universidad del Rosario.</h2>
+                        <a class="btn btn-primary" href="#about">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Knowledge so far</h2>
+                        <p class="text-white-50">
+                            I've learned about calculus, linear algebra, statistics models, computational models and complex algorithms. Also, I've learned about databases and basic front-end and back-end web desing.
+                            Right now I'm learning about data science and artificial intelligence. I'm so excited about those topics!.
+                            <!-- Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                            The theme is open source, and you can use it for any purpose, personal or commercial. -->
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/ipadml.png" alt="..." />
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/cloud.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Data Science services</h4>
+                            <p class="text-black-50 mb-0">I'd be glad to help you with Data Science projects, particularly projects involving Data Analysis (Linear Regression models, PCA, Machine Learning) or Cloud Computing using Amazon Web Services.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <!-- <div class="col-lg-6"><img class="img-fluid" src="assets/img/ipadml.png" alt="..." /></div> -->
+                    <div class="col-lg-7">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h2 class="text-white">You're in Instance #3 (us-east-1c)</h2>
+                                    <h2>----</h2>
+
+                                    <h4 class="text-white">
+                                        You can go to <a href="http://ec2-107-21-64-83.compute-1.amazonaws.com" target="_blank">Instance #1</a> (us-east-1a)
+                                    </h4>
+
+                                    <h4 class="text-white">
+                                        You can go to <a href="http://ec2-34-234-106-39.compute-1.amazonaws.com" target="_blank">Instance #2</a> (us-east-1b)
+                                    </h4>
+
+                                    <!-- <h4 class="text-white">
+                                        You can go to <a href="http://ec2-44-197-69-34.compute-1.amazonaws.com" target="_blank">Instance #3</a> (us-east-1c)
+                                    </h4> -->
+
+                                    <h4 class="text-white">
+                                        Otherwise, You can go to the <a href="http://ALB-proyecto-801553963.us-east-1.elb.amazonaws.com" target="_blank">ALB</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Universidad del Rosario</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Calle 12C # 6-25</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="mailto:emanuel.naval@urosario.edu.co">emanuel.naval@urosario.edu.co</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+57 305 2999373</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.instagram.com/emanuel_naval/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <!-- <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    <a class="mx-2" href="https://github.com/naval07" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50">
+            <div>Favicon made by<a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div class="container px-4 px-lg-5">Copyright &copy; Emanuel Naval 2021</div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
